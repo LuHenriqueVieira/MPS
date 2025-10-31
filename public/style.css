@@ -1,0 +1,517 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: "Open Sans", sans-serif;
+    color: #4187d4;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+
+}
+#cabecalho-container{
+    margin-top: -20px;
+    padding-top: 10px;
+    margin-left: -20px;
+    padding-left: 10px;
+    background-color: #fff;    
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    position: fixed;
+}
+
+#logo{
+    height: 120px;
+    padding-left: 25px ;
+    
+}
+
+#botoes-container{
+    width: 350px;
+}
+
+.botoes-cabecalho{
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color:#4187d4;
+    padding-left: 10px;    
+}
+
+h1{
+    padding-top: 50px; 
+   
+}
+
+.h1-1{
+    font-size: 60px;
+    padding-left: 20px;
+    color: #4187d4;
+}
+
+#minilogo{
+  width: 90px;
+  margin-left: -10px;
+}
+
+#recado1{
+    padding-top: 150px;
+    width: 400px;
+    color: #4187d4;
+}
+
+#foto-banner{
+    width: 99.1vw;
+    margin-left: -10px;
+    
+    /* para deixar gradient (-webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) -10%, rgba(0, 0, 0, 1) 60%);)*/
+    
+}
+
+.foto-da-farmacia{
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    
+}
+
+.farmacia{
+    width: 270px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid 2px, #4187d4;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+#farmacias-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#footer-personalizado {
+    background-color: #4187d4;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    padding: 40px 20px 10px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .footer-coluna {
+    flex: 1 1 200px;
+    min-width: 200px;
+  }
+  
+  .footer-logo {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-descricao {
+    font-size: 14px;
+    max-width: 250px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .icone-rede {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  .footer-rodape {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 10px;
+  }
+  
+.logo-das-farmacias-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #427FC2;
+    height: 30vh;
+    flex-direction: column;
+    color: #fff;
+    font-size: 45px;
+    padding-top: 150px;
+    padding-bottom: 40px;
+}
+.logo-das-farmacias{
+    background-color: #fff;
+    width: 30vw;
+    border-radius: 35px;
+}
+.localizacao-farmacia{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.img-mapa {
+    width: 60vw;
+    border-radius: 20px;
+}
+.informacoes-container{
+  margin-top: 10vw;
+  display: flex;
+  color: #000;
+  
+}
+
+.informacoes-lado-esq{
+  margin-left: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.informacoes-lado-dir{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 10vw;
+  flex-direction: column;
+}
+
+.lado{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.informacoes-caixa{
+  display: flex;
+  flex-direction: row;
+}
+.informacoes-span{
+  display: flex;
+  align-items: center;
+}
+
+.informacoes-span-b{
+  display: flex;
+  flex-direction: column;
+}
+.informacoes-container p{
+  font-weight: 300;
+  margin-top: -20px;
+}
+.fachada-farmacia{
+  width: 30vw;
+  height: 30vw;
+  border-radius: 30px;
+}
+.botao-wpp{
+  display: flex;
+  align-items: center;
+  background-color: #25d366;
+  color: #fff;
+  width: 10vw;
+  margin-bottom: 10px;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.botao-wpp img{
+  width: 25px;
+}
+.botao-tel{
+  background-color: rgb(44, 30, 11);
+  color: #fff;
+  width: 10vw;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.botao-tel img{
+  width: 25px;
+}
+
+.caixa-localizacao{
+  width: 20vw;
+  margin-top: 4vw;
+}
+
+#instagram-posts-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: #427FC2;
+  font-size: 30px;
+  margin-bottom: 150px;
+  margin-top: 150px;
+  width: 90vw;
+  
+}
+#instagram-posts-container p {
+  color: #000;
+  font-size: 25px;
+  font-weight: 300;
+}
+.instagram-lado-esq{
+  width: 20vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+#instagram-h1{
+  display: flex;
+  align-items: center;
+  
+
+}
+
+.p-mapa {
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+.instagram-lado-dir{
+  display: flex;
+  width: 35vw;
+  flex-wrap: wrap;
+  
+}
+
+#botao-instagram{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #fff;
+  background-color: #427FC2;
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+#minilogo-insta{
+  width: 30px;
+}
+
+.insta-posts{
+  width: 10vw;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+
+#proposito{
+  display: flex;
+  background-color: #4187d4;
+  height: 500px;
+  color: #fff;
+  margin-bottom: 200px;
+ 
+}
+
+#proposito-lado-esq{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+
+}
+
+#proposito-lado-dir{
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  justify-content: flex-start;
+
+}
+
+#foto-cidade{
+  width: 20vw;
+}
+
+#chat-container {
+  max-width: 800px;  
+  margin: 30px auto;  
+  padding: 0 20px;    
+}
+
+#chat-container iframe {
+  width: 100%;
+  height: 700px;
+  border: none;
+}
+
+.duvidas-saude {
+  background-color: #4187d4;
+  color: white;
+  padding: 40px 20px;
+  margin-bottom: 80px;
+}
+
+.medico-botao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.texto {
+  flex: 1;
+  min-width: 300px;
+  padding-right: 20px;
+}
+
+.texto h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.texto p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.botao-verde {
+  display: inline-block;
+  background-color: #64f478;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.botao-verde:hover {
+  background-color: #4bd263;
+}
+
+.imagem {
+  flex: 1;
+  text-align: center;
+}
+
+.imagem img {
+  max-width: 100%;
+  height: auto;
+}
+
+#proposito p{
+  font-size: 20px; color: #fff; font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  
+  #botoes-container {
+    display: flex;
+    flex-direction: column;
+     
+  }
+  #foto-banner{
+    width: 100vw;
+    margin-left: -2vw;
+  }
+  .h1-1{
+    font-size: 45px;
+  }
+  #minilogo{
+    width: 80px;
+  }
+  #instagram-posts-container{
+    justify-content: space-between;
+  }
+  .instagram-lado-dir{
+    align-content: center;
+  }
+  .insta-posts{
+    height: 80px;
+    width: 65px;
+    margin: 2px;
+  }
+  #botao-instagram{
+    width: 30vw;
+    border-radius: 40px;
+  }
+  #proposito p{
+    width: 30vw;
+  }
+  #proposito{
+    margin-left: -4px;
+  }
+  #proposito-lado-dir{
+    font-size: 12px;
+  }
+  
+  #proposito-paragrafo{
+    color: #fff;
+
+  }
+  .informacoes-caixa{
+    flex-direction: column;
+  }
+  .informacoes-container{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .caixa-localizacao{
+    width: 50vw;
+    margin: 20vw;
+  }
+  .fachada-farmacia{
+    width: 70vw;
+    height: 35vh;
+  }
+  .botao-wpp{
+    width: 35vw;
+  }
+  .botao-tel{
+    width: 35vw;
+    margin-bottom: 10vh;
+  }
+  .logo-das-farmacias-container{
+    text-align: center;
+  }
+}
+
